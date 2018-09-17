@@ -10,7 +10,7 @@ public class Hinhchunhat {
      
     public void nhap() {
         do {
-            System.out.print("Nhap chieu dai ====> ");
+            System.out.print("Nhap chieu dai =----===> ");
             chieuDai =  a.nextDouble();
             System.out.print("Nhap chieu rong ====> ");
             chieuRong =  a.nextDouble();
