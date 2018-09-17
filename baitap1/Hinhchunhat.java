@@ -8,15 +8,15 @@ public class Hinhchunhat {
     public double dienTich;
     Scanner a = new Scanner(System.in);
      
-    public void nhap() {
-        do {
-            System.out.print("Nhap chieu dai ====> ");
-            chieuDai =  a.nextDouble();
-            System.out.print("Nhap chieu rong ====> ");
-            chieuRong =  a.nextDouble();
-        } while (chieuDai < chieuRong);
-    }
-     
+//    public void nhap() {
+//        do {
+//            System.out.print("Nhap chieu dai ====> ");
+//            chieuDai =  a.nextDouble();
+//            System.out.print("Nhap chieu rong ====> ");
+//            chieuRong =  a.nextDouble();
+//        } while (chieuDai < chieuRong);
+//    }
+//     
     
     public double chuVical(double cdai, double crong) {
         chuVi = ((cdai + crong) * 2);
